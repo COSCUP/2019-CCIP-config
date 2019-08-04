@@ -5,21 +5,21 @@
       "en-US": "Day 1 Check-in",
       "zh-TW": "Day 1 報到"
     },
-    "available_time": "2018/08/11 7:00 +0800",
-    "expire_time": "2018/08/11 18:00 +0800",
+    "available_time": "2019/08/17 7:00 +0800",
+    "expire_time": "2019/08/17 17:00 +0800",
     "countdown": 0,
     "related_scenario": [
     ],
     "deliver_puzzle": 2
   },
   "kit": {
-    "order": 1, 
+    "order": 1,
     "display_text": {
-      "en-US": "T-Shirt", 
+      "en-US": "T-Shirt",
       "zh-TW": "工作人員衣服"
     },
-    "available_time": "2018/08/10 7:00 +0800",
-    "expire_time": "2018/08/12 17:00 +0800",
+    "available_time": "2019/08/16 7:00 +0800",
+    "expire_time": "2019/08/18 17:00 +0800",
     "countdown": 30,
     "attr": [
       {
@@ -34,8 +34,8 @@
       "en-US": "Day 2 Check-in",
       "zh-TW": "Day 2 報到"
     },
-    "available_time": "2018/08/12 7:00 +0800",
-    "expire_time": "2018/08/12 14:00 +0800",
+    "available_time": "2019/08/18 7:00 +0800",
+    "expire_time": "2019/08/18 15:00 +0800",
     "countdown": 0,
     "related_scenario": [
     ]
