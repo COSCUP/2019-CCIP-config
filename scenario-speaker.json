@@ -1,0 +1,72 @@
+{
+  "welcome_party": {
+    "order": 0,
+    "display_text": {
+      "en-US": "Welcome Party",
+      "zh-TW": "前夜派對"
+    },
+    "available_time": "2019/08/16 19:00 +0800",
+    "expire_time": "2019/08/16 21:30 +0800",
+    "countdown": 45
+  },
+  "day1checkin": {
+    "order": 1,
+    "display_text": {
+      "en-US": "Day 1 Check-in",
+      "zh-TW": "Day 1 報到"
+    },
+    "available_time": "2019/08/17 8:30 +0800",
+    "expire_time": "2019/08/17 17:00 +0800",
+    "countdown": 0,
+    "related_scenario": [
+      {
+        "id": "kit",
+        "staff_query_used": true,
+        "unlock": true
+      }
+    ],
+    "deliver_puzzle": 2
+  },
+  "kit": {
+    "order": 2,
+    "display_text": {
+      "en-US": "Welcome Kit",
+      "zh-TW": "迎賓袋"
+    },
+    "available_time": "2019/08/17 8:30 +0800",
+    "expire_time": "2019/08/18 15:00 +0800",
+    "countdown": 30,
+    "lock_message": "Haven't Check-in"
+  },
+  "vipkit": {
+    "order": 3,
+    "display_text": {
+      "en-US": "T-Shirt",
+      "zh-TW": "講者衣服"
+    },
+    "available_time": "2019/08/17 10:00 +0800",
+    "expire_time": "2019/08/18 15:00 +0800",
+    "countdown": 30,
+    "attr": [
+      "row_name": "shirt_size",
+      "attr_name": "shirt_size"
+    ]
+  },
+  "day2checkin": {
+    "order": 4,
+    "display_text": {
+      "en-US": "Day 2 Check-in",
+      "zh-TW": "Day 2 報到"
+    },
+    "available_time": "2019/08/18 8:30 +0800",
+    "expire_time": "2019/08/18 15:00 +0800",
+    "countdown": 0,
+    "related_scenario": [
+      {
+        "id": "kit",
+        "staff_query_used": true,
+        "unlock": true
+      }
+    ]
+  }
+}
