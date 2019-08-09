@@ -97,5 +97,37 @@
       "value_match": "1",
       "not_match_disable_message": "無申請 / Not apply for"
     }
+  },
+  "thanks": {
+    "order": 6,
+    "display_text": {
+      "en-US": "Thanks",
+      "zh-TW": "感謝狀"
+    },
+    "available_time": "2019/08/11 7:00 +0800",
+    "expire_time": "2019/08/19 00:00 +0800",
+    "countdown": 60,
+    "attr": [
+      {
+        "row_name": "thanks",
+        "attr_name": "thanks"
+      }
+    ]
+  },
+  "volunteer": {
+    "order": 7,
+    "display_text": {
+      "en-US": "Volunteer Cert.",
+      "zh-TW": "志工時數證明"
+    },
+    "available_time": "2019/08/11 7:00 +0800",
+    "expire_time": "2019/08/19 00:00 +0800",
+    "countdown": 60,
+    "attr": [
+      {
+        "row_name": "volunteer_cert",
+        "attr_name": "volunteer_cert"
+      }
+    ]
   }
 }
